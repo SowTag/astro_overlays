@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<!-- Hide the Bluetooth Hardware Offload switch in 
+     Dev Settings as it's not supported by the phone. -->
+  <bool name="config_show_bluetooth_hw_offload_switch">false</bool>
+  
+  <!-- MAC randomization -->
+  <bool name="config_wifi_support_connected_mac_randomization">true</bool>
+</resources>
